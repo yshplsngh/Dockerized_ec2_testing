@@ -3,7 +3,7 @@ import express,{Request,Response} from 'express';
 const app = express();
 
 app.get('/',(req:Request,res:Response)=>{
-    res.status(200).json({message:"Alright! After deploy.sh"})
+    res.status(200).json({message:"Alright! > Test 4"})
 })
 
 app.get('/health',(req,res)=>{
